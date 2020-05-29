@@ -5,8 +5,16 @@
   "main": "lib/index.js",
   "author": "Embbnux Ji",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/embbnux/firefox-send-link-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/embbnux/firefox-send-link-generator/issues"
+  },
+  "homepage": "https://github.com/embbnux/firefox-send-link-generator#readme",
   "scripts": {
-    "start": "node lib/index.js",
+    "start": "node lib/index.js"
   },
   "bin": {
     "fs-link-gen": "./bin/fs-link-gen"
