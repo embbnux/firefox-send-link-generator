@@ -1,0 +1,18 @@
+{
+  "name": "firefox-send-link-generator",
+  "version": "0.0.1",
+  "description": "A Firefox Send link generator",
+  "main": "lib/index.js",
+  "author": "Embbnux Ji",
+  "license": "MIT",
+  "scripts": {
+    "start": "node lib/index.js",
+  },
+  "bin": {
+    "fs-link-gen": "./bin/fs-link-gen"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "puppeteer": "^3.1.0"
+  }
+}
