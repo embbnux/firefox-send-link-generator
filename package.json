@@ -1,6 +1,6 @@
 {
   "name": "firefox-send-link-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Firefox Send link generator",
   "main": "lib/index.js",
   "author": "Embbnux Ji",

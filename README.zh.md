@@ -27,6 +27,8 @@ $ FSLG_FILE_URI=your_file_original_uri FSLG_DOWNLOAD_PASSWORD=your_download_pass
 
 3. 触发 CI 任务
 
+4. 在 CI 日志的最后拿到 Firefox Send 链接
+
 ### Github Actions
 
 1. Fork 这个项目到自己的 Github 账户下, 为新 Fork 的项目启用 [Github Actions](https://github.community/t/how-to-run-and-enable-github-actions-on-forked-repo-with-github-api/17232)
@@ -36,3 +38,4 @@ $ FSLG_FILE_URI=your_file_original_uri FSLG_DOWNLOAD_PASSWORD=your_download_pass
 
 3. 触发 CI 任务
 
+4. 在 CI 日志的最后拿到 Firefox Send 链接

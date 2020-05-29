@@ -29,6 +29,8 @@ With CI, we can create Firefox Send link for files that can't be downloaded well
 
 3. Trigger your travis CI job
 
+4. Get Firefox Send link in job's log
+
 ### Github Actions
 
 1. Fork this repo, and enable [Github Actions](https://github.community/t/how-to-run-and-enable-github-actions-on-forked-repo-with-github-api/17232) for forked repo.
@@ -36,3 +38,5 @@ With CI, we can create Firefox Send link for files that can't be downloaded well
 2. Add environment variables `FSLG_FILE_URI` and `FSLG_DOWNLOAD_PASSWORD` in [Github Actions settings](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets).
 
 3. Trigger Github Actions job
+
+4. Get Firefox Send link in job's log
