@@ -21,6 +21,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: yarn
     - run: yarn start
-        env:
-          FSLG_FILE_URI: ${{ secrets.FSLG_FILE_URI }}
-          FSLG_DOWNLOAD_PASSWORD: ${{ secrets.FSLG_DOWNLOAD_PASSWORD }}
+      env:
+        FSLG_FILE_URI: ${{ secrets.FSLG_FILE_URI }}
+        FSLG_DOWNLOAD_PASSWORD: ${{ secrets.FSLG_DOWNLOAD_PASSWORD }}
