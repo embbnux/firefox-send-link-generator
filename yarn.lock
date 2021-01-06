@@ -19,12 +19,12 @@ agent-base@5:
   resolved "https://registry.npm.taobao.org/agent-base/download/agent-base-5.1.1.tgz?cache=0&sync_timestamp=1579811507521&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fagent-base%2Fdownload%2Fagent-base-5.1.1.tgz#e8fb3f242959db44d63be665db7a8e739537a32c"
   integrity sha1-6Ps/JClZ20TWO+Zl23qOc5U3oyw=
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.npm.taobao.org/axios/download/axios-0.19.2.tgz?cache=0&sync_timestamp=1579670738528&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha1-PqNsXYgY0NX4qKl6bTa4bNwAyyc=
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.10.0"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -83,13 +83,6 @@ debug@4, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npm.taobao.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
-  dependencies:
-    ms "2.0.0"
-
 end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   version "1.4.4"
   resolved "https://registry.npm.taobao.org/end-of-stream/download/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
@@ -115,12 +108,10 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.5.10.tgz?cache=0&sync_timestamp=1585479417937&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
-  dependencies:
-    debug "=3.1.0"
+follow-redirects@^1.10.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 fs-constants@^1.0.0:
   version "1.0.0"
@@ -193,11 +184,6 @@ mkdirp-classic@^0.5.2:
   version "0.5.3"
   resolved "https://registry.npm.taobao.org/mkdirp-classic/download/mkdirp-classic-0.5.3.tgz?cache=0&sync_timestamp=1588586333034&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmkdirp-classic%2Fdownload%2Fmkdirp-classic-0.5.3.tgz#fa10c9115cc6d8865be221ba47ee9bed78601113"
   integrity sha1-+hDJEVzG2IZb4iG6R+6b7XhgERM=
-
-ms@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz?cache=0&sync_timestamp=1575472461218&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fms%2Fdownload%2Fms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
-  integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
 ms@^2.1.1:
   version "2.1.2"
